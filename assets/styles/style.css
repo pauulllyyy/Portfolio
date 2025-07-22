@@ -30,7 +30,7 @@ header{
     background-color: transparent;
     filter: drop-shadow(10px);
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     z-index: 100;
 }
@@ -69,6 +69,7 @@ nav a:active{
     color: #b74b4b;
     border-bottom: 3px solid #b74b4b;
 }
+
 
 @media(max-width:995px){
     nav{
@@ -226,6 +227,224 @@ span{
     right: -8;
     animation: cursor 0.6 infinite;
 }
+
+#about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #080707;
+}
+
+.AboutPic{
+    height: auto;
+    width: 430px;
+
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+
+#button{
+    display: inline-block;
+ padding: 1rem 2.8rem;
+ background-color: black;
+ border-radius: 4rem;
+ font-size: 1.6rem;
+ color: #b74b4b;
+ letter-spacing: 0.3rem;
+ font-weight: 600;
+ border: 2px solid #b74b4b;
+ transition: 0.3s ease;
+ cursor: pointer;
+}
+
+#button:hover{
+      transform: scale3rd(1.03);
+    background-color: #b74b4b;
+    color: black;
+    box-shadow: 0 0 25px #b74b4b;
+}
+
+.faceme {
+ width: 500px;
+ height: auto;
+ border-radius: 50%;
+
+}
+
+#service{
+    background-color: #101010;
+    width: 100%;
+    padding: 100px 0;
+
+}
+
+.dish-content {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(243, 235, 235);
+
+}
+.dish-content h2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+.dish-content{
+    padding: 80px;
+
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+
+}
+
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 25px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: black;
+}
+
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 12px;
+}
+
+.pra p{
+    color: #000;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card ,button{
+    background-color: #b74b4b;
+    color:white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+
+footer{
+        position: relative;
+        width: 100%;
+        height: 300px;
+        background: #0c0909;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer p:nth-child(1){font-size: 30px;
+    color: white;
+    margin-bottom: 15px;
+    font-weight: bold;
+    }
+
+    footer p:nth-child(2){
+        color: white;
+        font-size: 17px;
+        width: 500px;
+        text-align: center;
+        line-height: 26px;
+    }
+
+    #social{display: flex;}
+
+.social-icons a{
+    display: inline flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: transparent;
+    border: 0.2rem solid #b74b4b;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease;
+    color: #b74b4b;
+
+}
+
+.social-icons a:hover{
+    color: black;
+    transform: scale(1.3) translateY(-5px);
+    background-color: #b74b4b;
+    box-shadow: 0 0 25px #b74b4b;
+}
+
+.end{
+    position: absolute;
+    color: rgb(251, 251, 251);
+    bottom: 35px;
+    font-size: 14px;
+}
+@media only screen and (max-width: 640px) {
+    footer {
+        width: 100%;
+    }
+}
+
 
 @keyframes cursor{
     to{
